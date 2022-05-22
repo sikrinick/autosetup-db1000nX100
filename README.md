@@ -1,15 +1,28 @@
 # Automated setup tool for db1000nX100
-[](https://x100.vn.ua/)
 
-<!--db1000nX100 – продукт на основі популярної української програми для проведення DDoS-атак по росії db1000n, який значно підвищує ефективність атаки (до 100 разів і навіть більше, звідси й X100 у назві).
+[db1000nX100](https://x100.vn.ua/) is a product based on a [db1000n](https://arriven.github.io/db1000n/)
+for DDoS attacks on russian online services and commercial infrastructure.
 
-Програма шляхом проведення массивних DDoS-атак знищує працездатність найважливіших для росії онлайн-сервісів, таких як: банки, держзакупівлі, тендери, системи звістностей та оплати податків тощо, створюючи прямі збитки для економіки країни-агресора.
+[GitHub repo of db1000nX100](https://github.com/ihorlv/db1000nX100)  
+[GitHub repo of db1000n](https://github.com/Arriven/db1000n)
 
-Відчуй себе справжнім хакером, навіть якщо взагалі нічого в цьому не розумієш – програма все зробитиь за тебе. Цілі для атак визначають спеціалісти IT-армії, а програма отримує їх автоматично.
+Suitable for Cloud providers, tested only on Digital Ocean.
 
-db1000nX100 є ОФІЦІЙНИМ інструментом IT-армії.-->
+## The next setup tool provides next features:
+- Installs Curl
+- Installs Python 3 requirements
+- Installs Docker and keyrings
+- Clones [db1000nX100](https://github.com/ihorlv/db1000nX100.git)
+- Clones [ovpn_downloader](https://github.com/sikrinick/ovpn_downloader.git)
+- Downloads OpenVPN configurations for supported providers 
+- Update on demand
 
-## 
+However, you have to enter credentials by hand. 
+
+## Limitations
+Those scripts provide minimal setup.  
+Currently supported VPN providers by this setup script, as it is based on [OpenVPN Downloader](https://github.com/sikrinick/ovpn_downloader):
+- Ghost Path 
 
 ## Setup
 ```shell
