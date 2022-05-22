@@ -14,7 +14,7 @@ Suitable for Cloud providers, tested only on Digital Ocean.
 - Installs Docker and keyrings
 - Clones [db1000nX100](https://github.com/ihorlv/db1000nX100.git)
 - Clones [ovpn_downloader](https://github.com/sikrinick/ovpn_downloader.git)
-- Downloads OpenVPN configurations for supported providers 
+- Downloads OpenVPN configurations for supported providers (except ukrainian servers)
 - Update on demand
 
 However, you have to enter credentials by hand. 
