@@ -16,7 +16,7 @@ echo \
 
 chmod a+r /usr/share/keyrings/docker-archive-keyring.gpg
 apt-get update
-apt-get install docker.io docker-ce docker-ce-cli containerd.io
+apt-get install docker.io
 
 # db1000nX100
 cd ~ || exit 1
